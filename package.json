@@ -5,6 +5,9 @@
   "repository": "https://github.com/boydwo/-DesafioConceitosDeNodeJs-BootcampRocktseat.git",
   "author": "boydwo <marcos.t@ufv.br>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
   "dependencies": {
     "express": "^4.17.1"
   },

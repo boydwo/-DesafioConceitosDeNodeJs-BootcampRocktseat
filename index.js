@@ -3,7 +3,7 @@ const server = express();
 server.use(express.json());
 const vetProjetos = [];
 
-// adiciona 
+// adiciona ao vetor
 server.post('/projects/', (req, res) => {
   const { id } = req.body;
   const { title } = req.body;
